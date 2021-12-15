@@ -1,0 +1,8 @@
+#btn {
+    width:  500px;
+    height: 300px;
+    background: cyan;
+}
+body {
+    background: url("../assets-image/the.jpeg");
+}

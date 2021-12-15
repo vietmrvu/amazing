@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title id="title">Vui lòng chờ trong giây lát</title>
+	<style>
+		#video {
+			width:  600px;
+			display:  block;
+			margin:  auto;
+		}
+		#h1 {
+			display: block;
+			text-align: center;
+			font-family: tahoma;
+		}
+	</style>
+</head>
+<body> 
+	<h1 id="h1"> Vui lòng xem video để chờ trong giây lát </h1>
+	<video controls id="video" onclick="rickroll()">
+	  <source src="../assets-image/rickroll.mp4">
+	</video>
+	<script>
+		function rickroll() {
+			var the = document.getElementById("h1")
+			var title = document.getElementById("title")
+			the.textContent = "Bạn đã bị Rick Roll !!!"
+			title.textContent = "Bạn đã bị Rick Roll !!!"
+		}
+	</script>
+</body>
+</html>
